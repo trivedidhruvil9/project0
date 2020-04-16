@@ -1,0 +1,35 @@
+.jumbotron{
+    text-align: center !important;
+    font-family:'Slabo 27px', serif !important;
+    background-color: #b57807 !important;
+}
+
+.jumbotron  h1{
+    font-size: 5.5rem !important;
+    color: white;
+}
+
+.jumbotron  h3{
+    font-size: 3.5rem !important;
+    color: white;
+}
+
+.jumbotron img{
+    max-height: 16%;
+    max-width: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+    .jumbotron h1 {
+      font-size: 2rem !important;
+    }
+    .jumbotron  h3{
+        font-size: 1rem !important;
+        color: white;
+    }
+    .jumbotron img{
+        max-height: 11%;
+        max-width: 13%;
+    }
+   
+  }
